@@ -1,0 +1,49 @@
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-6">
+        <h2>Book Details</h2>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-3">
+            <h5 class="card-title">name</h5>
+          </div>
+          <div class="col-md-9">
+            <p class="card-text">{{product.name}}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h5 class="card-title">price</h5>
+          </div>
+          <div class="col-md-9">
+            <p class="card-text">{{product.price}}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h5 class="card-title">Description</h5>
+          </div>
+          <div class="col-md-9">
+            <p class="card-text">{{product.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <button class="btn badge-success" routerLink="/product/list">Exit</button>
+    </div>
+  </div>
+  <div class="col-md-3"></div>
+</div>
